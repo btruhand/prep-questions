@@ -17,5 +17,6 @@
         "python.unitTest.pyTestEnabled": false,
         "python.unitTest.nosetestsEnabled": false,
         "python.unitTest.unittestEnabled": false,
-        "python.unitTest.promptToConfigure": false
+        "python.unitTest.promptToConfigure": false,
+        "python.pythonPath": "${workspaceFolder}/.direnv/python-3.7.0/bin/python"
 }
