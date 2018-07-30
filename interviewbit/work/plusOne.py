@@ -12,7 +12,6 @@ class Solution:
         # slicing away to trim down the zeroes
         A = A[idx:]
 
-        lengthOfA = len(A)
         reversedA = list(reversed(A))
         addWith = 1
         for idx, digit in enumerate(reversedA):
