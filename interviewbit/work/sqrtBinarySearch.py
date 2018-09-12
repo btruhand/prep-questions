@@ -16,13 +16,9 @@ class Solution:
 		original = A
 		lower_bound = 1
 		upper_bound = A
-		while A ** 2 > original:
-			upper_bound = A
-			A = A // 2
-
 		while (A + 1) ** 2 <= original or A ** 2 > original:
 			if A ** 2 > original:
-				A = lower_bound + (upper_bound - lower_bound + 1) // 2
+				A = (upper_bound + lower_bound) // 2
 				upper_bound = A
 			else:
 				lower_bound = A
