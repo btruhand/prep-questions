@@ -1,7 +1,7 @@
 import unittest
 
 class Solution:
-	def sqrt(self, A):
+	def sqrt(self, A: int) -> int:
 		"""sqrt function using binary search
 
 		Finds the approximate square root of A.
